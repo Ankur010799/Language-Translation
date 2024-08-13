@@ -32,6 +32,10 @@
         ```python
         nltk.download("stopwords")
         ```
+    - Download wordnet:
+        ```python
+        nltk.download("wordnet")
+        ```
 
 4. Upgrade additional libraries:
     - Pillow:
@@ -42,3 +46,12 @@
         ```python
         !pip install --upgrade wordcloud
         ```
+
+## Evaluation Metric
+
+1. BLEU (Bilingual Evaluation Understudy)
+2. ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
+     ```python
+        pip install rouge-score
+     ```
+4. METEOR (Metric for Evaluation of Translation with Explicit ORdering)
